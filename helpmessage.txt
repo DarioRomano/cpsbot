@@ -1,0 +1,15 @@
+Hi, thanks for asking for help.
+
+currently the following commands exist:
+```
+$help 
+	You should have already figured this one out
+$remindme (s|p|w (0,1,2,3))
+	Using w and then a number between 1-3 will register you for water drinking reminders. Use 0 to deregister from the bot.
+	If you use the numbers 1-3 you will get more notifiers, the higher the number. The levels are:
+	1 - every 2 hours (during office hours)
+	2 - every hour (during office hours)
+	3 - every half hour (during office hours)
+	You will be reminded via direct message.
+	The arguments s and w are currently not implemented, but are supposed to be single and recurring reminders.
+```
